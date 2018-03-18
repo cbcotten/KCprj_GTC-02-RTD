@@ -22,14 +22,15 @@ LIBS:CBC_Discrete
 LIBS:CAP_1210_Kemet_X7R_2kV_10%_E12
 LIBS:power
 LIBS:CBC_Mechanical
+LIBS:GTC_02_RTD-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Four Wire RTD Temperature Input Module, 2 channels"
-Date ""
-Rev ""
+Date "2018-03-17"
+Rev "2.0"
 Comp "3rd Wave Labs, LLC"
 Comment1 "Chip Cotten"
 Comment2 "General Temperature Controller Project"
@@ -151,35 +152,35 @@ $EndComp
 $Comp
 L Adafruit_MAX31865_0291 MOD1
 U 1 1 5936318E
-P 4500 1700
-F 0 "MOD1" H 4700 1950 60  0000 L CNN
-F 1 "Adafruit_MAX31865_0291" H 4700 1850 60  0000 L CNN
-F 2 "CBC_Modules:Adafruit-3328_MAX31865_0291" H 4550 2450 50  0001 L CNN
-F 3 "https://www.adafruit.com/product/3328" H 4550 2350 50  0001 L CNN
-F 4 "3328" H 4550 2150 50  0001 L CNN "MPN"
-F 5 "Adafruit" H 4550 2250 50  0001 L CNN "MFG"
-F 6 "MOD-1006-0" H 4550 2050 50  0001 L CNN "HPN"
-	1    4500 1700
+P 5475 1800
+F 0 "MOD1" H 5675 2050 60  0000 L CNN
+F 1 "Adafruit_MAX31865_0291" H 5675 1950 60  0000 L CNN
+F 2 "CBC_Modules:Adafruit-3328_MAX31865_0291" H 5525 2550 50  0001 L CNN
+F 3 "https://www.adafruit.com/product/3328" H 5525 2450 50  0001 L CNN
+F 4 "3328" H 5525 2250 50  0001 L CNN "MPN"
+F 5 "Adafruit" H 5525 2350 50  0001 L CNN "MFG"
+F 6 "MOD-1006-0" H 5525 2150 50  0001 L CNN "HPN"
+	1    5475 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_MAX31865_0291 MOD2
 U 1 1 5936326C
-P 4500 3800
-F 0 "MOD2" H 4700 4050 60  0000 L CNN
-F 1 "Adafruit_MAX31865_0291" H 4700 3950 60  0000 L CNN
-F 2 "CBC_Modules:Adafruit-3328_MAX31865_0291" H 4550 4550 50  0001 L CNN
-F 3 "https://www.adafruit.com/product/3328" H 4550 4450 50  0001 L CNN
-F 4 "3328" H 4550 4250 50  0001 L CNN "MPN"
-F 5 "Adafruit" H 4550 4350 50  0001 L CNN "MFG"
-F 6 "MOD-1006-0" H 4550 4150 50  0001 L CNN "HPN"
-	1    4500 3800
+P 5425 3800
+F 0 "MOD2" H 5625 4050 60  0000 L CNN
+F 1 "Adafruit_MAX31865_0291" H 5625 3950 60  0000 L CNN
+F 2 "CBC_Modules:Adafruit-3328_MAX31865_0291" H 5475 4550 50  0001 L CNN
+F 3 "https://www.adafruit.com/product/3328" H 5475 4450 50  0001 L CNN
+F 4 "3328" H 5475 4250 50  0001 L CNN "MPN"
+F 5 "Adafruit" H 5475 4350 50  0001 L CNN "MFG"
+F 6 "MOD-1006-0" H 5475 4150 50  0001 L CNN "HPN"
+	1    5425 3800
 	1    0    0    -1  
 $EndComp
 Text GLabel 2300 1800 2    50   Input ~ 0
 VIN
-NoConn ~ 4500 1900
-NoConn ~ 4500 4000
+NoConn ~ 5475 2000
+NoConn ~ 5425 4000
 Text GLabel 2300 1900 2    50   Input ~ 0
 GND
 Text GLabel 2300 2800 2    50   Input ~ 0
@@ -198,33 +199,33 @@ Text GLabel 2300 4800 2    50   Input ~ 0
 CS3
 Text GLabel 2300 4900 2    50   Input ~ 0
 CS4
-Text GLabel 4500 1700 0    50   Input ~ 0
+Text GLabel 5475 1800 0    50   Input ~ 0
 VIN
-Text GLabel 4500 3800 0    50   Input ~ 0
+Text GLabel 5425 3800 0    50   Input ~ 0
 VIN
-Text GLabel 4500 1800 0    50   Input ~ 0
+Text GLabel 5475 1900 0    50   Input ~ 0
 GND
-Text GLabel 4500 3900 0    50   Input ~ 0
+Text GLabel 5425 3900 0    50   Input ~ 0
 GND
-Text GLabel 4500 2000 0    50   Input ~ 0
+Text GLabel 5475 2100 0    50   Input ~ 0
 CLK
-Text GLabel 4500 2100 0    50   Input ~ 0
+Text GLabel 5475 2200 0    50   Input ~ 0
 SDO
-Text GLabel 4500 2300 0    50   Input ~ 0
+Text GLabel 5475 2400 0    50   Input ~ 0
 CS1
-Text GLabel 4500 2200 0    50   Input ~ 0
+Text GLabel 5475 2300 0    50   Input ~ 0
 SDI
-Text GLabel 4500 2400 0    50   Input ~ 0
+Text GLabel 5475 2500 0    50   Input ~ 0
 RDY1
-Text GLabel 4500 4100 0    50   Input ~ 0
+Text GLabel 5425 4100 0    50   Input ~ 0
 CLK
-Text GLabel 4500 4200 0    50   Input ~ 0
+Text GLabel 5425 4200 0    50   Input ~ 0
 SDO
-Text GLabel 4500 4300 0    50   Input ~ 0
+Text GLabel 5425 4300 0    50   Input ~ 0
 SDI
-Text GLabel 4500 4400 0    50   Input ~ 0
+Text GLabel 5425 4400 0    50   Input ~ 0
 CS2
-Text GLabel 4500 4500 0    50   Input ~ 0
+Text GLabel 5425 4500 0    50   Input ~ 0
 RDY2
 Text GLabel 8400 5000 0    50   Input ~ 0
 RTD1_F-
@@ -250,21 +251,21 @@ Text GLabel 8400 3800 0    50   Input ~ 0
 PE_GND
 Text GLabel 8400 3000 0    50   Input ~ 0
 PE_GND
-Text GLabel 5700 1900 2    50   Input ~ 0
+Text GLabel 6675 2000 2    50   Input ~ 0
 RTD1_F-
-Text GLabel 5700 2000 2    50   Input ~ 0
+Text GLabel 6675 2100 2    50   Input ~ 0
 RTD1_M-
-Text GLabel 5700 2200 2    50   Input ~ 0
+Text GLabel 6675 2300 2    50   Input ~ 0
 RTD1_M+
-Text GLabel 5700 2300 2    50   Input ~ 0
+Text GLabel 6675 2400 2    50   Input ~ 0
 RTD1_F+
-Text GLabel 5700 4000 2    50   Input ~ 0
+Text GLabel 6625 4000 2    50   Input ~ 0
 RTD2_F-
-Text GLabel 5700 4100 2    50   Input ~ 0
+Text GLabel 6625 4100 2    50   Input ~ 0
 RTD2_M-
-Text GLabel 5700 4300 2    50   Input ~ 0
+Text GLabel 6625 4300 2    50   Input ~ 0
 RTD2_M+
-Text GLabel 5700 4400 2    50   Input ~ 0
+Text GLabel 6625 4400 2    50   Input ~ 0
 RTD2_F+
 Text GLabel 2700 7600 2    50   Input ~ 0
 VIN
@@ -318,21 +319,19 @@ Wire Wire Line
 	4600 7500 4900 7500
 Connection ~ 4900 7500
 Wire Notes Line
-	600  1200 10500 1200
+	4825 1200 10500 1200
 Wire Notes Line
-	3400 1200 3400 8000
+	4825 475  4825 6800
 Wire Notes Line
 	7300 1200 7300 6700
 Wire Notes Line
-	3400 3200 7300 3200
-Text Notes 3600 1400 0    50   ~ 0
+	4825 3200 7300 3200
+Text Notes 4975 1425 0    50   ~ 0
 RTD 1
-Text Notes 3600 3400 0    50   ~ 0
+Text Notes 5000 3375 0    50   ~ 0
 RTD 2
-Text Notes 600  1400 0    50   ~ 0
+Text Notes 675  825  0    50   ~ 0
 CONTROLLER CONNECTIONS
-Text Notes 700  5600 0    50   ~ 0
-ENCLOSURE
 Text Notes 4200 7200 0    50   ~ 0
 SHIELD
 Text Notes 7600 1400 0    50   ~ 0
@@ -347,23 +346,23 @@ F1 "BOMparts.sch" 60
 $EndSheet
 Text Notes 7800 5800 0    60   ~ 0
 BOM SHEET
-NoConn ~ 4500 2600
-NoConn ~ 4500 2700
-NoConn ~ 4500 4700
-NoConn ~ 4500 4800
-Text Notes 3600 5700 0    60   ~ 0
+NoConn ~ 5475 2700
+NoConn ~ 5475 2800
+NoConn ~ 5425 4700
+NoConn ~ 5425 4800
+Text Notes 5000 5625 0    60   ~ 0
 MAX31855 Expansion Header
-Text GLabel 5000 6500 0    50   Input ~ 0
+Text GLabel 5500 6500 0    50   Input ~ 0
 CS3
-Text GLabel 5000 6600 0    50   Input ~ 0
+Text GLabel 5500 6600 0    50   Input ~ 0
 CS4
-Text GLabel 5000 6100 0    50   Input ~ 0
+Text GLabel 5500 6100 0    50   Input ~ 0
 VIN
-Text GLabel 5000 6200 0    50   Input ~ 0
+Text GLabel 5500 6200 0    50   Input ~ 0
 GND
-Text GLabel 5000 6300 0    50   Input ~ 0
+Text GLabel 5500 6300 0    50   Input ~ 0
 CLK
-Text GLabel 5000 6400 0    50   Input ~ 0
+Text GLabel 5500 6400 0    50   Input ~ 0
 SDO
 Wire Notes Line
 	600  6800 6100 6800
@@ -371,6 +370,60 @@ Text GLabel 2300 2000 2    50   Input ~ 0
 CLK
 Text GLabel 2300 5000 2    50   Input ~ 0
 GND
+$Comp
+L Pin_Header_Straight_2.54mm_1x06 J9
+U 1 1 594C2FD0
+P 5500 6100
+F 0 "J9" H 5700 6350 60  0000 L CNN
+F 1 "Pin_Header_Straight_2.54mm_1x06" H 5700 6250 60  0000 L CNN
+F 2 "CBC_Connectors:Pin_Header_Straight_1x06_Pitch2.54mm" H 5550 6850 50  0001 L CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11635.pdf" H 5550 6750 50  0001 L CNN
+F 4 "Sullins" H 5550 6650 50  0001 L CNN "MFG"
+F 5 "CON-1006-06" H 5550 6450 50  0001 L CNN "HPN"
+F 6 "PRPC006SAAN-RC" H 5550 6550 50  0001 L CNN "MPN"
+	1    5500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pin_Header_Straight_2.54mm_1x12 J10
+U 1 1 5AADE94A
+P 4175 1150
+F 0 "J10" H 4375 1400 60  0000 L CNN
+F 1 "Pin_Header_Straight_2.54mm_1x12" H 4375 1300 60  0000 L CNN
+F 2 "CBC_Connectors:Pin_Header_Straight_1x06_Pitch2.54mm" H 4225 1900 50  0001 L CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11635.pdf" H 4225 1800 50  0001 L CNN
+F 4 "CON-1006-12" H 4225 1500 50  0001 L CNN "HPN"
+F 5 "PRPC012SAAN-RC" H 4225 1600 50  0001 L CNN "MPN"
+F 6 "Sullins" H 4225 1700 50  0001 L CNN "MFG"
+	1    4175 1150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4175 1150 2    50   Input ~ 0
+VIN
+Text GLabel 4175 1250 2    50   Input ~ 0
+GND
+Text GLabel 4175 1350 2    50   Input ~ 0
+CLK
+Text GLabel 4175 1450 2    50   Input ~ 0
+SDO
+Text GLabel 4175 1550 2    50   Input ~ 0
+SDI
+Text GLabel 4175 1650 2    50   Input ~ 0
+CS1
+Text GLabel 4175 1850 2    50   Input ~ 0
+CS2
+Text GLabel 4175 1750 2    50   Input ~ 0
+RDY1
+Text GLabel 4175 1950 2    50   Input ~ 0
+RDY2
+Text GLabel 4175 2050 2    50   Input ~ 0
+CS3
+Text GLabel 4175 2150 2    50   Input ~ 0
+CS4
+Text GLabel 4175 2250 2    50   Input ~ 0
+GND
+Text Notes 700  5600 0    50   ~ 0
+ENCLOSURE
 $Comp
 L Bud_Industries_DMB-4772 ENCLOSURE1
 U 1 1 594C1C2A
@@ -386,17 +439,27 @@ F 6 "ENC-1003-0" H 1850 6550 60  0000 L CNN "HPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pin_Header_Straight_2.54mm_1x06 J9
-U 1 1 594C2FD0
-P 5000 6100
-F 0 "J9" H 5200 6350 60  0000 L CNN
-F 1 "Pin_Header_Straight_2.54mm_1x06" H 5200 6250 60  0000 L CNN
-F 2 "CBC_Connectors:Pin_Header_Straight_1x06_Pitch2.54mm" H 5050 6850 50  0001 L CNN
-F 3 "https://drawings-pdf.s3.amazonaws.com/11635.pdf" H 5050 6750 50  0001 L CNN
-F 4 "Sullins" H 5050 6650 50  0001 L CNN "MFG"
-F 5 "CON-1006-06" H 5050 6450 50  0001 L CNN "HPN"
-F 6 "PRPC006SAAN-RC" H 5050 6550 50  0001 L CNN "MPN"
-	1    5000 6100
+L RES-1000-000_0Ohm R1
+U 1 1 5AADFECD
+P 3925 6100
+F 0 "R1" H 3925 6200 50  0000 C CNB
+F 1 "RES-1000-000_0Ohm" H 3925 6000 40  0000 C CNN
+F 2 "CBC_Passive:R0805" H 3925 6700 40  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3925 6600 40  0001 C CNN
+F 4 "Stackpole" H 3925 6500 40  0001 C CNN "MFG"
+F 5 "RMCF0805ZT0R00" H 3925 6400 40  0001 C CNN "MPN"
+F 6 "RES-1000-000" H 3925 6300 40  0001 C CNN "HPN"
+	1    3925 6100
 	1    0    0    -1  
 $EndComp
+Text Notes 3525 5650 0    60   ~ 0
+GROUND JUMPER
+Text GLabel 4075 6100 2    50   Input ~ 0
+GND
+Text GLabel 3775 6100 0    50   Input ~ 0
+PE_GND
+Text Notes 5050 700  0    60   ~ 0
+HISTORY\nREV 2, Ground Jumper, Controller Connection Header
+Wire Notes Line
+	3000 5400 3000 6800
 $EndSCHEMATC
