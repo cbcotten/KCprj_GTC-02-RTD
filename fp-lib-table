@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name CBC_Connectors)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_Connectors.pretty")(options "")(descr ""))
+  (lib (name CBC_Footprints)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_Footprints.pretty")(options "")(descr ""))
+  (lib (name CBC_IC)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_IC.pretty")(options "")(descr ""))
+  (lib (name CBC_Logo)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_Logo.pretty")(options "")(descr ""))
+  (lib (name CBC_Mechanical)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_Mechanical.pretty")(options "")(descr ""))
+  (lib (name CBC_Modules)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_Modules.pretty")(options "")(descr ""))
+  (lib (name CBC_Passive)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_Passive.pretty")(options "")(descr ""))
+  (lib (name CBC_SMDPkg)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_SMDPkg.pretty")(options "")(descr ""))
+  (lib (name CBC_THTPkg)(type KiCad)(uri "$(KIPRJMOD)/library/lib_footprints/CBC_THTPkg.pretty")(options "")(descr ""))
+)

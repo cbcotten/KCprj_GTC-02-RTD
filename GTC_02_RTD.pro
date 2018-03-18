@@ -1,4 +1,4 @@
-update=6/22/2017 11:01:34 AM
+update=3/17/2018 8:22:54 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/chipc/Documents/PCB/KiCAD_REPO/lib_symbols
+LibDir=library/lib_symbols
 [eeschema/libraries]
 LibName1=CBC_BOM
 LibName2=CBC_Connector
